@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>JsCalculators</title>
+</head>
+
+<body>
+    <h1>JS Converting Programs</h1>
+    <div class="container">
+        <div class="row">
+            <!-- Converting Hours Into Seconds -->
+            <div class="col-3">
+                <H6>Convert Hours In Seconds</H6>
+                <input type="text" name="" id="hours" placeholder="Enter Hours">
+                <input type="text" name="" class="result" id="hoursResult" placeholder="Your Result here" disabled><br>
+                <button class="but" onclick="hoursInSeconds()">Calculate</button>
+
+            </div>
+            <!-- End -->
+            <!-- Converting Age into Days -->
+            <div class="col-3">
+                <H6>Convert Age into Days</H6>
+                <input type="text" name="" id="age" placeholder="Enter your Age">
+                <input type="text" name="" class="result" id="ageResult" placeholder="Your Result here" disabled><br>
+                <button class="but" onclick="ageInDays()">Calculate</button>
+            </div>
+            <!-- End -->
+            <!-- Inverting Numbers -->
+            <div class="col-3">
+                <H6>Inverting Numbers</H6>
+                <input type="text" name="" id="invert" placeholder="Enter Numbers 1 by 1">
+                <input type="text" name="" class="result" id="invertResult" placeholder="Your Result here" disabled><br>
+                <button class="but" onclick="invertArray()">Calculate</button>
+            </div>
+            <!-- End -->
+            <!-- Checking Number of Characters in a string -->
+            <div class="col-3">
+                <H6>Checking String Length</H6>
+                <input type="text" name="" id="String" placeholder="Enter String">
+                <input type="text" name="" class="result" id="resultString" placeholder="Your Result Here" disabled>
+                <button class="but" onclick="inputString()">Enter String</button>
+            </div>
+            <!-- End -->
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <!-- Converting Integers into Strings -->
+            <div class="col-3">
+                <H6>Convert Integers Into String</H6>
+                <input type="text" name="" id="integers" placeholder="Enter 5 integers">
+                <input type="text" name="" class="result" id="intResult" placeholder="Your Result here" disabled><br>
+                <button class="but" onclick="intToString()">Calculate</button>
+            </div>
+            <!-- End -->
+            <!-- Checking Leap Years -->
+            <div class="col-3">
+                <H6>Checking Leap years</H6>
+                <input type="text" name="" id="leap" placeholder="Enter a year">
+                <input type="text" name="" class="result" id="leapResult" placeholder="Your Result here" disabled><br>
+                <button class="but" onclick="leapCheck()">Calculate</button>
+            </div>
+            <!-- End -->
+            <!-- Corona Cases Evaulator -->
+            <div class="col-3">
+                <H6>Corona Case Evaulator</H6>
+                <input type="text" name="" id="recoveredCases" placeholder="Enter Recovered Corona Cases">
+                <input type="text" name="" id="newCases" placeholder="Enter New Cases">
+                <input type="text" name="" id="activeCases" placeholder="Enter Active Cases">
+                <input type="text" name="" class="result" id="coronaResult" placeholder="Your Result here" disabled><br>
+                <button class="but" onclick="coronaCaseEval()">Calculate</button>
+            </div>
+            <!-- End -->
+        </div>
+    </div>
+    <script src="./programs/script.js"></script>
+</body>
+
+</html>
